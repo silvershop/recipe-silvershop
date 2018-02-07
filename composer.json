@@ -1,0 +1,30 @@
+{
+    "name": "silvershop/recipe",
+    "type": "silverstripe-recipe",
+    "description": "SilverStripe recipe for fully featured SilverShop Project",
+    "homepage": "http://silvershop.github.io/",
+    "license": "BSD-3-Clause",
+    "require": {
+        "silverstripe/recipe-cms": "1.1.x-dev",
+        "silvershop/core": "3.x-dev",
+        "silvershop/stock": "2.x-dev",
+        "silvershop/discounts": "2.x-dev",
+        "silvershop/shipping": "2.x-dev",
+        "silvershop/geocoding": "2.x-dev",
+        "silvershop/comparison": "2.x-dev",
+        "silvershop/coloredvariations": "2.x-dev"
+    },
+    "require-dev": {
+        "phpunit/PHPUnit": "^5.7"
+    },
+    "extra": {
+        "project-files": [
+            "mysite/code/*"
+        ]
+    },
+    "config": {
+        "process-timeout": 600
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
