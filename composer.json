@@ -20,7 +20,10 @@
     "extra": {
         "project-files": [
             "mysite/code/*"
-        ]
+        ],
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
     },
     "config": {
         "process-timeout": 600
