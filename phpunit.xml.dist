@@ -1,0 +1,8 @@
+<phpunit bootstrap="vendor/silverstripe/cms/tests/bootstrap.php" colors="true">
+    <testsuite name="silvershop">
+        <directory>vendor/silvershop/core/tests/php</directory>
+        <directory>vendor/silvershop/discounts/tests/</directory>
+        <directory>vendor/silvershop/geocoding/tests/</directory>
+        <directory>vendor/silvershop/shipping/tests/</directory>
+    </testsuite>
+</phpunit>
