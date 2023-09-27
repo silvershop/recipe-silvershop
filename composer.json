@@ -6,12 +6,12 @@
     "license": "BSD-3-Clause",
     "require": {
         "silvershop/core": "4.x-dev",
-        "silvershop/stock": "2.x-dev",
-        "silvershop/discounts": "2.x-dev",
-        "silvershop/shipping": "2.x-dev",
-        "silvershop/geocoding": "2.x-dev",
-        "silvershop/comparison": "2.x-dev",
-        "silvershop/coloredvariations": "2.x-dev"
+        "silvershop/stock": "3.x-dev",
+        "silvershop/discounts": "3.x-dev",
+        "silvershop/shipping": "3.x-dev",
+        "silvershop/geocoding": "3.x-dev",
+        "silvershop/comparison": "3.x-dev",
+        "silvershop/coloredvariations": "3.x-dev"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
