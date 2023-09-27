@@ -5,8 +5,7 @@
     "homepage": "http://silvershop.github.io/",
     "license": "BSD-3-Clause",
     "require": {
-        "silverstripe/recipe-cms": "^4.11",
-        "silvershop/core": "3.x-dev",
+        "silvershop/core": "4.x-dev",
         "silvershop/stock": "2.x-dev",
         "silvershop/discounts": "2.x-dev",
         "silvershop/shipping": "2.x-dev",
@@ -22,7 +21,7 @@
             "mysite/code/*"
         ],
         "branch-alias": {
-            "dev-main": "1.2.x-dev"
+            "dev-main": "4.x-dev"
         }
     },
     "config": {
