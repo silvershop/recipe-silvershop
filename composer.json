@@ -9,7 +9,6 @@
         "silvershop/stock": "3.x-dev",
         "silvershop/discounts": "3.x-dev",
         "silvershop/shipping": "3.x-dev",
-        "silvershop/geocoding": "3.x-dev",
         "silvershop/comparison": "3.x-dev",
         "silvershop/coloredvariations": "3.x-dev"
     },
@@ -25,8 +24,15 @@
         }
     },
     "config": {
-        "process-timeout": 600
+        "process-timeout": 600,
+        "preferred-install": "source"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:silvershop/silvershop-core.git"
+        }
+    ],
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
