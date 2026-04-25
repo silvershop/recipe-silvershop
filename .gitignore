@@ -10,3 +10,8 @@
 # ignore composer vendor folder
 /vendor/
 composer.lock
+/app
+/public
+.htaccess
+/resources/
+.phpunit.result.cache

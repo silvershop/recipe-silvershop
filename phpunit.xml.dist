@@ -2,7 +2,9 @@
     <testsuite name="silvershop">
         <directory>vendor/silvershop/core/tests/php</directory>
         <directory>vendor/silvershop/discounts/tests/</directory>
-        <directory>vendor/silvershop/geocoding/tests/</directory>
         <directory>vendor/silvershop/shipping/tests/</directory>
+        <directory>vendor/silvershop/stock/tests/</directory>
+        <directory>vendor/silvershop/comparison/tests/</directory>
+        <directory>vendor/silvershop/coloredvariations/tests/</directory>
     </testsuite>
 </phpunit>
