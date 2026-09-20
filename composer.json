@@ -13,9 +13,12 @@
         "silvershop/coloredvariations": "6.x-dev"
     },
     "require-dev": {
-        "phpunit/phpunit": "^11"
+        "phpunit/phpunit": "^11",
+        "php-http/guzzle7-adapter": "^1",
+        "omnipay/dummy": "^3",
+        "omnipay/manual": "^3",
+        "omnipay/paymentexpress": "^3"
     },
-
     "extra": {
         "project-files": [
             "mysite/code/*"
@@ -26,7 +29,10 @@
     },
     "config": {
         "process-timeout": 600,
-        "preferred-install": "source",
+        "preferred-install": {
+            "silvershop/*": "source",
+            "*": "dist"
+        },
         "allow-plugins": {
             "composer/installers": true,
             "silverstripe/vendor-plugin": true,
