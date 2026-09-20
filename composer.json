@@ -9,7 +9,7 @@
         "silvershop/stock": "6.x-dev",
         "silvershop/discounts": "4.x-dev",
         "silvershop/shipping": "4.x-dev",
-        "silvershop/comparison": "6.x-dev",
+        "silvershop/comparison": "4.x-dev",
         "silvershop/coloredvariations": "6.x-dev"
     },
     "require-dev": {
