@@ -5,12 +5,12 @@
     "homepage": "http://silvershop.github.io/",
     "license": "BSD-3-Clause",
     "require": {
-        "silvershop/core": "6.x-dev",
-        "silvershop/stock": "6.x-dev",
-        "silvershop/discounts": "4.x-dev",
-        "silvershop/shipping": "4.x-dev",
-        "silvershop/comparison": "4.x-dev",
-        "silvershop/coloredvariations": "6.x-dev"
+        "silvershop/core": "^6",
+        "silvershop/stock": "^6",
+        "silvershop/discounts": "^4@dev",
+        "silvershop/shipping": "^3.2",
+        "silvershop/comparison": "^4",
+        "silvershop/coloredvariations": "^3.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^11",
@@ -43,12 +43,6 @@
         "test": "./vendor/bin/phpunit",
         "test:coverage": "./vendor/bin/phpunit --coverage-text"
     },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "git@github.com:silvershop/silvershop-core.git"
-        }
-    ],
     "prefer-stable": true,
     "minimum-stability": "dev"
 }
