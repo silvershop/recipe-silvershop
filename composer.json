@@ -7,11 +7,11 @@
     "require": {
         "php": "^8.3",
         "silverstripe/framework": "^6",
-        "silvershop/core": "^6",
-        "silvershop/stock": "^6",
+        "silvershop/core": "^6.3",
+        "silvershop/stock": "^6.1.1",
         "silvershop/discounts": "^4",
-        "silvershop/shipping": "^3.2",
-        "silvershop/comparison": "^4",
+        "silvershop/shipping": "^3.2.2",
+        "silvershop/comparison": "^4.1",
         "silvershop/coloredvariations": "^3.1"
     },
     "require-dev": {
@@ -19,7 +19,7 @@
         "php-http/guzzle7-adapter": "^1",
         "omnipay/dummy": "^3",
         "omnipay/manual": "^3",
-        "omnipay/paymentexpress": "^3"
+        "omnipay/paymentexpress": "^3.0.1"
     },
     "extra": {
         "project-files": [
